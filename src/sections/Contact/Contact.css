@@ -2,3 +2,145 @@
     height: 100vh;
     width: 100vw;
 }
+
+.contact-container {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-left {
+    width: 50%;
+    height: 100%;
+    padding: 5vh 0;
+
+}
+.contact-right {
+    width: 50%;
+    height: 100%;
+
+}
+
+
+
+.icons-bar {
+    height: 8vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.icon-container {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+}
+.icon-container:hover {
+    transform: scale(1.1);
+}
+.icon-container img {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+}
+
+
+.contact-page .input {
+    background-color: transparent;
+    display: block;
+    height: 7vh;
+    width: 35vw;
+    border: 1px solid rgb(8, 101, 255);
+    margin: 4vh;
+    padding: 2vh;
+    color: white;
+    border-radius: 8px;
+}
+.contact-page .input:active {
+    border: none;
+}
+
+.contact-page .textarea-input {
+    height: 30vh;
+}
+
+.contact-btn {
+    height: 6vh;
+    width: 19vh;
+    background-color: rgb(8, 101, 255); 
+    color: rgb(1, 7, 17);
+    border: 1px solid rgb(8, 101, 255);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 14px;
+    font-size: 3vh;
+}
+
+.contact-btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+}
+.contact-card {
+    height: 100%;
+    width: 40%;
+    border: 1px solid rgb(8,101,255);
+    background-color: rgb(44, 44, 108);
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+.contact-card:hover {
+    background-color: transparent;
+}
+
+
+.contact-card h1 {
+    font-size: 3vh;
+    color: white;
+}
+.contact-card h3 {
+    font-size: 2.3vh;
+    font-weight: 400;
+    color: white;
+}
+.contact-card a {
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(8,101,255);
+}
+
+.contact-left #contact-line {
+    color: white;
+    text-align: end;
+    margin-right: 3.7vh;
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+
+.hire-me {
+    position: relative;
+    top: 1.5vh;
+    left: 65vh;
+}
+
+.send {
+    position: relative;
+    top: 9vh;
+    left: 46vh;
+}

@@ -19,6 +19,12 @@
     margin-top: 5%;
 }
 
+.frameLogo:hover {
+    animation: none;
+    transform: scale(1.1);
+    z-index: 10;
+}
+
 
 .frameLogo .logo-container img {
     height: 20vh;

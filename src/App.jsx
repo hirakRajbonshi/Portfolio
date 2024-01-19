@@ -1,4 +1,4 @@
-import { Navbar, Navbar2} from "./components"
+import { Navbar, Navbar2, Footer} from "./components"
 
 // import { Home, Home2, Projects, Skills, Contact, About} from "./sections"
 import React from 'react'
@@ -17,14 +17,8 @@ export default function App() {
       <Route path="/" element={<Main/>}/>
       <Route path="/*" element={<Error/>}/>
     </Routes>
+    <Footer />
     </BrowserRouter>
-        {/* <Navbar2 />
-        <Main /> */}
-        {/* <Home />
-        <Skills />
-        <Projects />
-        <About />
-        <Contact /> */}
     </>
   )
 }
