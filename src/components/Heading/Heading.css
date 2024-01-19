@@ -1,0 +1,43 @@
+.heading {
+    width: 100vw;
+    padding: 1vh 0;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid white; */
+    align-items: center;
+    margin: 2vh 0;
+}
+.heading h1 {
+    color: white;
+    font-size: 6vh; 
+    animation: zoom 3s;
+}
+
+.heading h3 {
+    color: white;
+    font-size: 3vh;
+    font-weight: 100;
+    animation: moveDown 3s;
+}
+
+@keyframes moveDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoom {
+    from {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

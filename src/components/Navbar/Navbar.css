@@ -1,0 +1,75 @@
+.navbar {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.compass-container {
+    height: 10vh;
+    width: 10vh;
+    background: linear-gradient(red, yellow);
+    border-radius: 50%;
+
+    margin-left: 0.5rem;
+    animation: spin 4s normal 0s infinite;
+    transform: scale(1.5);
+}
+
+#compass-img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    transform: scale(1.5);
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-options {
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    white-space: nowrap;
+}
+
+
+
+.home {
+    left: 8rem;
+}
+.skill {
+    left: 6.5rem;
+    top: -3.6rem;
+    transform: rotate(-36deg);
+}
+.project {
+    left: 6.5rem;
+    top: 6.6rem;
+    transform: rotate(36deg);
+
+}
+.about {
+    top: -5.5rem;
+    left: 0.7rem;
+    transform: rotate(-90deg);
+}
+.contact {
+    top: 9rem;
+    left: 0.7rem;
+    transform: rotate(90deg);
+    
+}
+
+.nav-options:hover {
+    color: blue;
+}

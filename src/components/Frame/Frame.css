@@ -1,0 +1,43 @@
+.frame {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 6%;
+    transform-origin: 50% 2%;
+    animation: swing 3s ease-in-out 0s infinite alternate forwards;
+    text-align: center;
+    padding: 0 10%;
+    background-color: rgba(0,0,0,0.8);
+    /* filter: blur(6px); */
+}
+
+.pin {
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 50%;
+    margin: 8% auto;
+    border: 1px solid black;
+    box-shadow: 1% 1% 1% 1% black;
+
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(8deg);
+    }
+}
+
+.frame h1 {
+    font-size: 3vh;
+    text-wrap: wrap;
+    margin: 8% 0%;
+}
+.frame h3 {
+    font-size: 2vh;
+    font-weight: 400;
+    margin: 8% 0%;
+}

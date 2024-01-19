@@ -1,0 +1,29 @@
+.nav-bar {
+    position: fixed;
+    height: 100vh;
+    width: 10vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10% 0;
+    z-index: 10;
+}
+.nav-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.nav-option a {
+    color: white;
+    font-size: 3vh;
+    text-decoration: none;
+    /* animation: hover 0.1s ease-in ; */
+    transition: all 0.1s ease-in;
+}
+
+.nav-option:hover a {
+    font-size: 4vh;
+    margin-left: 5vw;
+}

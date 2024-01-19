@@ -1,0 +1,61 @@
+.home-page {
+    color: white;
+}
+.home-page h1 {
+    font-size: 12vh;    
+
+}
+.home-page span {
+    font-size: 8vh;
+}
+
+.home-page .title {
+    animation: moveRight 2s;
+}
+
+.home-page .title2 {
+    animation: moveLeft 2s;
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0vw)
+    }
+}
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0vw)
+    }
+}
+
+.text-container {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.image-container {
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 55vw;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+#my-image {
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+}
