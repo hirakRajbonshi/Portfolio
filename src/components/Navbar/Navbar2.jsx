@@ -14,16 +14,16 @@ export default function Navbar2() {
                 <a href="/#home">Home</a>
             </div>
           
-
+            <div className="nav-option">
+                <a href="/#about">About</a>
+            </div>
             <div className="nav-option">
                 <a href="/#skills">Skills</a>
             </div>
             <div className="nav-option">
                 <a href="/#projects">Projects</a>
             </div>
-            <div className="nav-option">
-                <a href="/#about">About</a>
-            </div>
+
             <div className="nav-option">
                 <a href="/#contact">Contact</a>
             </div>

@@ -8,10 +8,10 @@ export default function Footer() {
             <a href="/#projects">Projects</a>
             <a href="/#about">About Me</a>
             <a href="/#contact">Contact Me</a>
-            <h1>
+            {/* <h1>
                 This Portfolio is Inspired by  
                 <a href="https://lahon.in/#"> lahon.in</a>
-            </h1>
+            </h1> */}
         </div>
     )
 }

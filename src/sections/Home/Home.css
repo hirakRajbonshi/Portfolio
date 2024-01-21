@@ -59,3 +59,37 @@
     width: 60vh;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 800px) {
+    #home {
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        height: 400px;
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+    .text-container {
+        /* position: relative; */
+        /* top: 0%; */
+        margin: auto;
+        height: 200px;
+    }
+    .home-page h1 {
+        font-size: 3rem;
+    }
+
+    .home-page span {
+        font-size: 2rem;
+    }
+
+    #my-image {
+        display: none;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+
+}

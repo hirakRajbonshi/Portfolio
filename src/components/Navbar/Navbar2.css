@@ -11,9 +11,10 @@
 }
 .nav-option {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 10vh;
+    padding-left: 2vh;
 }
 .nav-option a {
     color: white;
@@ -25,5 +26,11 @@
 
 .nav-option:hover a {
     font-size: 4vh;
-    margin-left: 5vw;
+    margin-left: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        display: none;
+    }
 }

@@ -8,15 +8,16 @@ export default function Contact() {
                 <div className="contact-left">
                     <div className="contact-cards">
                         <div className="contact-card">
-                            <h1>Email</h1>
-                            <h3>hrkraj0@gamil.com</h3>
-                            <a href="">Send a Mail</a>
-                        </div>
-                        <div className="contact-card">
                             <h1>Whatsapp</h1>
                             <h3>Available Anytime</h3>
                             <a href="">Send a Message</a>
                         </div>
+                        <div className="contact-card">
+                            <h1>Email</h1>
+                            <h3>hrkraj0@gamil.com</h3>
+                            <a href="">Send a Mail</a>
+                        </div>
+                        
                     </div>
                     
                     <h1 id="contact-line">Open for Work</h1>
@@ -48,8 +49,10 @@ export default function Contact() {
                     </a>
                 </div>
                 <div className="icon-container">
-                    <a href="https://github.com/hirakRajbonshi">
-                        <img src="../../../public/discord-removebg-preview.png" alt="" />
+                    <a href="/">
+                        {/* <img src="../../../public/discord-removebg-preview.png" alt="" /> */}
+                        <img src="../../../public/XLogo.png" alt="" />
+
                     </a>
                 </div>
                 <div className="icon-container">

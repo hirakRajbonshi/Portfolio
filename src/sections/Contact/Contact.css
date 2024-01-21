@@ -71,9 +71,9 @@
 .contact-btn {
     height: 6vh;
     width: 19vh;
-    background-color: rgb(8, 101, 255); 
+    background-color: rgba(8, 101, 255, 0.7); 
     color: rgb(1, 7, 17);
-    border: 1px solid rgb(8, 101, 255);
+    border: 1px solid rgba(8, 101, 255, 0.7);
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -97,6 +97,7 @@
     width: 40%;
     border: 1px solid rgb(8,101,255);
     background-color: rgb(44, 44, 108);
+    /* background-color: #37B5B6; */
     padding: auto;
     display: flex;
     flex-direction: column;
