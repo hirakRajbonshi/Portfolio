@@ -1,0 +1,26 @@
+.iconbar {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconbar a i {
+    font-size: 3rem;
+    color: rgb(8, 49, 255);
+    transition: all 0.3 ease;
+}
+
+.iconbar a i:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 800px) {
+    .iconbar {
+        height: 2rem;
+    }
+    .iconbar a i {
+        font-size: 1.5rem;
+    }
+}

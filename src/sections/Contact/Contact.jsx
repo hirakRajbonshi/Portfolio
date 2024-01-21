@@ -1,4 +1,4 @@
-import { Heading } from "../../components"
+import { Heading, Iconbar } from "../../components"
 import './Contact.css'
 export default function Contact() {
     return (
@@ -33,33 +33,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="icons-bar">
-                <div className="icon-container">
-                    <a href="https://www.facebook.com/hirak.rajbonshi.7/">
-                        <img src="../../../public/facebook-removebg-preview.png" alt="" />
-                    </a>
-                </div>
-                <div className="icon-container">
-                    <a href="https://www.linkedin.com/in/hirak-rajbonshi-baa6a628a/">
-                        <img src="../../../public/linkedin.png" alt="" />
-                    </a>
-                </div>
-                <div className="icon-container">
-                    <a href="https://www.instagram.com/hirak_rajbonshi/">
-                        <img src="../../../public/instagram-removebg-preview.png" alt="" />
-                    </a>
-                </div>
-                <div className="icon-container">
-                    <a href="/">
-                        {/* <img src="../../../public/discord-removebg-preview.png" alt="" /> */}
-                        <img src="../../../public/XLogo.png" alt="" />
-
-                    </a>
-                </div>
-                <div className="icon-container">
-                    <a href="https://github.com/hirakRajbonshi">
-                        <img src="../../../public/github-removebg-preview.png" alt="" />
-                    </a>
-                </div>
+                <Iconbar />
             </div>
         </div>
     )

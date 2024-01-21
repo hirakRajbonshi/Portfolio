@@ -34,19 +34,7 @@
     margin-top: 2vh;
 }
 
-.icon-container {
-    height: 8vh;
-    width: 8vh;
-    border-radius: 50%;
-}
-.icon-container:hover {
-    transform: scale(1.1);
-}
-.icon-container img {
-    height: 8vh;
-    width: 8vh;
-    border-radius: 50%;
-}
+
 
 
 .contact-page .input {
@@ -209,6 +197,7 @@
 
     .hire-me {
         left: 5rem;
+
     }
     .send {
         left: 6rem;
@@ -232,14 +221,8 @@
 
     .icons-bar {
         display: flex;
-        justify-content: space-between;
-        margin: auto;
-        padding: 0;
-
+        justify-content: space-evenly;
     }
 
-    .icons-bar .icon-container a img {
-        height: 2.5rem;
-        width: 2.5rem;
-    }
+
 }

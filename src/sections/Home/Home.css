@@ -52,7 +52,8 @@
     left: 55vw;
     top: 50vh;
     transform: translateY(-50%);
-    background-image: url("../../../public/PHOTO.jpg");
+    background-image: url("../../../public/PHOTO1.1.jpg");
+    border: 1px solid white;
     background-repeat: no-repeat;
     background-size: cover;
 }

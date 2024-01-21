@@ -14,7 +14,6 @@ let aboutData2 = {
     data: [
         "Selected as State Level Child Scientist in NCSC 2017, Kokrajhar",
         "Selected as National Level Child Scientist in NCSC 2018, SOA University, Odisha",
-        ""
     ]
 }
 
