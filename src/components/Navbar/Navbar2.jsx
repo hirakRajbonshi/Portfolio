@@ -20,9 +20,9 @@ export default function Navbar2() {
             <div className="nav-option">
                 <a href="/#skills">Skills</a>
             </div>
-            <div className="nav-option">
+            {/* <div className="nav-option">
                 <a href="/#projects">Projects</a>
-            </div>
+            </div> */}
 
             <div className="nav-option">
                 <a href="/#contact">Contact</a>

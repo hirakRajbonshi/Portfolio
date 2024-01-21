@@ -25,7 +25,7 @@
 }
 
 
-.frameLogo .logo-container img {
+.logo-container img {
     height: 20vh;
     width: 20vh;
 }
@@ -63,3 +63,22 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .frameLogo {
+        width: auto;
+    }
+    .frameLogo .logo-container {
+        margin-top: 1rem;
+        height: 4rem;
+        width: 4rem;
+    }
+    .frameLogo .logo-container #skill-logo {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .frameLogo #skill-heading {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+}

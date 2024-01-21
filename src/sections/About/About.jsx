@@ -7,7 +7,7 @@ export default function About() {
             <Heading main="About Me" sub="Know more" />
             <div className="about-container">
                 <div className="about-text-container">
-                    <p>
+                    <p id="text">
                         Hello, I'm Hirak Rajbonshi, a undergraduate Computer Science 
                         and Engineering Student at NIT Silchar, Assam. I am a beginner 
                         in the field of software development with a zeal to learn new 
@@ -18,7 +18,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="about-image-container">
-                    <img id="about-my-image" src="../../../public/PHOTO.jpg" alt="" />
+                    {/* <img id="about-my-image" src="../../../public/PHOTO.jpg" alt="" /> */}
                 </div>
 
             </div>

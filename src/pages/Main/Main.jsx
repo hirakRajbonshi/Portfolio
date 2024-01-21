@@ -7,10 +7,10 @@ export default function Main() {
             <Navbar2/>
             <Home />
             <About />
-            {/* <Skills /> */}
+            <Skills />
             {/* <Projects /> */}
-            {/* <Contact /> */}
-            {/* <Footer /> */}
+            <Contact />
+            <Footer />
 
         </>
     )

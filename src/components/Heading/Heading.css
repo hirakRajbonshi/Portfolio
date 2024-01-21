@@ -41,3 +41,19 @@
         transform: scale(1);
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    #heading {
+        margin: 0rem 0;
+    }
+    #heading h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    #heading h3 {
+        font-size: 0.7rem;
+
+    }
+}

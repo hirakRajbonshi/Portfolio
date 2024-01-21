@@ -38,3 +38,20 @@
     backdrop-filter: blur(50px);
     transform: scale(1.05);
 }
+
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .card-heading #card-title {
+        font-size: 1.5rem;
+    }
+
+    .card ul li {
+        font-size: 1rem;
+    }
+}

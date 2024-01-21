@@ -32,7 +32,7 @@ export default function Home() {
         />
       </div>
       <div className="image-container">
-        <img id="my-image" src="../../../public/PHOTO.jpg" alt="" />
+        {/* <img id="my-image" src="../../../public/PHOTO.jpg" alt="" /> */}
 
       </div>
     </div>

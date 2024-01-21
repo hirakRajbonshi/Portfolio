@@ -52,6 +52,9 @@
     left: 55vw;
     top: 50vh;
     transform: translateY(-50%);
+    background-image: url("../../../public/PHOTO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #my-image {

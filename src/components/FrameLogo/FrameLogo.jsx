@@ -9,9 +9,9 @@ export default function FrameLogo({data}) {
         <div className="frameLogo" style={style}>
             <div className="pin" style={{backgroundColor: data.color}}></div>
             <div className="logo-container">
-                <img src={data.image} alt="" />
+                <img id='skill-logo' src={data.image} alt="" />
             </div>
-            <h1>{data.name}</h1>
+            <h1 id='skill-heading'>{data.name}</h1>
         </div>
     )
 }
